@@ -1,0 +1,47 @@
+/* Global*/
+* {
+    box-sizing: border-box;
+    /*eviter les bug sous chrome de transition*/
+    -webkit-transform: translate(0;);
+}
+html {
+    font-size: 16px;
+}
+
+
+/*header,
+nav,
+main,
+section,
+article,
+aside
+footer,
+div,
+p,a,img{
+    border: 0.1em dotted green;
+    min-height: 2em;
+}*/
+
+/******************GENERAL **********************/
+body{
+	/*text-align: center;*/
+	width: 100%;
+	max-width: 1200px;
+	text-align: center;
+}
+
+header{
+	font-family: 'Kalam', cursive;
+}
+
+
+/***************************************************/
+#choseDragon{
+	display: none;
+}
+#attack{
+	display: none;
+}
+#Winner{
+	display: none;
+}

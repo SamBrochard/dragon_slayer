@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Dragon slayer v2</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Kalam|Kaushan+Script|Satisfy" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Dragon Slayer V2</h1>
+	</header>
+	<main>
+		<div id="choseFighter">
+			<h3>Choisissez votre combattant</h3>
+			<input type="radio" name="fighter" value="elfe">elfe
+			<input type="radio" name="fighter" value="nain">nain
+			<input type="radio" name="fighter" value="chevalier">chevalier
+			<input type="button" id="envoiFighter" name="choisirFighter" value="choisir">
+		</div>
+		<div id="choseDragon">
+			<h3>Choisissez votre adversaire</h3>
+			<input type="radio" name="dragon" value="water">dragon d'eau
+			<input type="radio" name="dragon" value="ice">dragon de glace
+			<input type="radio" name="dragon" value="black">dragon noir
+			<input type="button" id="envoiDragon" name="choisirDragon" value="choisir">
+		</div>
+		<div id="attack" >
+			<input type="button" name="next" id="next" value="Next">
+			<div id="text">
+				
+			</div>
+		</div>
+		<div id="Winner">
+			<input type="button" name="rejouer" id="replay" value="rejouer">
+			<input type="button" name="quitter" id="quit" value="quitter">
+		</div>
+		
+	</main>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
